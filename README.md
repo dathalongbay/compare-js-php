@@ -1,6 +1,6 @@
 # compare-js-php
 ```
-// thêm phần tử vào mảng
+# thêm phần tử vào mảng
 const fruits = ["Banana", "Orange", "Apple", "Mango"];
 fruits.push("Kiwi");
 
