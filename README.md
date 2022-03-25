@@ -47,13 +47,11 @@ fruits.forEach(function(item, index) {
 });
 
 document.getElementById("demo").innerHTML = text;
-# Map creates a new array from calling a function for every array element. Tạo ra 1 mảng mới từ 1 mảng cho trước theo 1 quy tắc trong function callback
+# Map => Tạo ra 1 mảng mới từ 1 mảng cho trước theo 1 quy tắc trong function callback
 const numbers = [65, 44, 12, 4];
-const newArr = numbers.map(myFunction);
+const newArr = numbers.map(function(num) {
+  return num * 10;
+});
 
 document.getElementById("demo").innerHTML = newArr;
-
-function myFunction(num) {
-  return num * 10;
-}
 ```
