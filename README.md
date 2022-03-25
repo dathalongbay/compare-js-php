@@ -38,4 +38,13 @@ const ages = [3, 10, 30, 18, 20];
 document.getElementById("demo").innerHTML = ages.find(function(age) {
   return age > 18;
 });
+
+# forEach
+let text = "";
+const fruits = ["apple", "orange", "cherry"];
+fruits.forEach(function(item, index) {
+  text += index + ": " + item + "<br>"; 
+});
+
+document.getElementById("demo").innerHTML = text;
 ```
