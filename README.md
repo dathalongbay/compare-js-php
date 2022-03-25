@@ -25,4 +25,10 @@ const arr1 = ["Cecilie", "Lone"];
 const arr2 = ["Emil", "Tobias", "Linus"];
 
 const children = arr1.concat(arr2); 
+
+# lọc các phần tử trong mảng thỏa mãn điều kiện nào đó
+const ages = [32, 33, 16, 40];
+document.getElementById("demo").innerHTML = ages.filter(function checkAdult(age) {
+  return age >= 18;
+});
 ```
