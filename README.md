@@ -14,4 +14,9 @@ let result = Array.isArray(fruits);
 # convert mảng thành chuỗi
 const fruits = ["Banana", "Orange", "Apple", "Mango"];
 let text = fruits.join();
+
+# chuyển chuỗi thành mảng
+var string = "0,1";
+var array = string.split(",");
+alert(array[0]);
 ```
