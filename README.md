@@ -31,4 +31,11 @@ const ages = [32, 33, 16, 40];
 document.getElementById("demo").innerHTML = ages.filter(function checkAdult(age) {
   return age >= 18;
 });
+
+# tìm 1 phần tử đầu tiên thỏa mãn điều kiện cho trước
+const ages = [3, 10, 30, 18, 20];
+
+document.getElementById("demo").innerHTML = ages.find(function(age) {
+  return age > 18;
+});
 ```
