@@ -19,4 +19,10 @@ let text = fruits.join();
 var string = "0,1";
 var array = string.split(",");
 alert(array[0]);
+
+# gộp 2 mảng
+const arr1 = ["Cecilie", "Lone"];
+const arr2 = ["Emil", "Tobias", "Linus"];
+
+const children = arr1.concat(arr2); 
 ```
