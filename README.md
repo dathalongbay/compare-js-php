@@ -69,4 +69,8 @@ let activities = [
     ['Play Game', 1],
     ['Sleep', 7]
 ];
+console.log(activities[0][1]); // 9
+activities.push(['Study',2]);
+
+console.table(activities);
 ```
