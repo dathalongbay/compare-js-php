@@ -54,4 +54,19 @@ const newArr = numbers.map(function(num) {
 });
 
 document.getElementById("demo").innerHTML = newArr;
+
+# thêm phần từ vào mảng như php
+const numbers = [45, 4, 9, 16, 25];
+
+numbers[7] = 100;
+numbers[10] = 100;
+console.log(numbers);
+# mảng đa chiều trong js
+let activities = [
+    ['Work', 9],
+    ['Eat', 1],
+    ['Commute', 2],
+    ['Play Game', 1],
+    ['Sleep', 7]
+];
 ```
