@@ -77,3 +77,4 @@ console.table(activities);
 # https://www.javascripttutorial.net/es6/javascript-for-of/
 # https://dmitripavlutin.com/javascript-defined-variable-checking/#:~:text=In%20JavaScript%2C%20a%20variable%20can,if%20a%20variable%20is%20defined.
 # https://www.typescripttutorial.net/
+# https://www.valentinog.com/blog/await-react/
